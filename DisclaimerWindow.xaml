@@ -1,0 +1,84 @@
+<Window x:Class="TwentyFourAqSSTool.DisclaimerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="24aq SS Tools"
+        Width="590" Height="550"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource Bg0}"
+        Foreground="{StaticResource TextPrimary}"
+        ResizeMode="NoResize">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="24aq SS Tools"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Foreground="{StaticResource Accent}"/>
+            <TextBlock Text="// forensic launcher"
+                       FontFamily="Consolas"
+                       FontSize="12"
+                       Foreground="{StaticResource TextDim}"
+                       Margin="1,2,0,0"/>
+        </StackPanel>
+
+        <Border Grid.Row="1"
+                Background="#0C1710"
+                BorderBrush="#245D36"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="12"
+                Margin="0,18,0,18">
+            <TextBlock Text="SYSTEM NOTICE  //  READ BEFORE CONTINUING"
+                       FontFamily="Consolas"
+                       FontWeight="Bold"
+                       Foreground="{StaticResource Accent}"/>
+        </Border>
+
+        <StackPanel Grid.Row="2">
+            <TextBlock TextWrapping="Wrap" FontSize="14" LineHeight="22">
+                This launcher can download supported tools from URLs you configure in tools.json and keep them in one organized local folder.
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="14" LineHeight="22" Margin="0,14,0,0">
+                Only add tools you trust and are permitted to use. Third-party tools remain the responsibility of their original authors.
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="14" LineHeight="22" Margin="0,14,0,0">
+                Downloads come from the GitHub links included in this build. PowerShell tools are downloaded first and then started locally instead of executing remote text with Invoke-Expression.
+            </TextBlock>
+            <TextBlock Text="> Ready to initialize 24aq SS Tools."
+                       FontFamily="Consolas"
+                       Foreground="{StaticResource Accent}"
+                       Margin="0,24,0,0"/>
+        </StackPanel>
+
+        <Grid Grid.Row="3" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="CANCEL"
+                    Height="44"
+                    Click="Cancel_Click"
+                    Style="{StaticResource FlatButton}"
+                    BorderBrush="#25442F"
+                    HorizontalContentAlignment="Center"/>
+
+            <Button Grid.Column="2"
+                    Content="ACCEPT &amp; CONTINUE"
+                    Height="44"
+                    Click="Accept_Click"
+                    Background="#39FF88"
+                    Foreground="#061109"
+                    BorderBrush="#39FF88"
+                    FontWeight="Bold"
+                    Cursor="Hand"/>
+        </Grid>
+    </Grid>
+</Window>

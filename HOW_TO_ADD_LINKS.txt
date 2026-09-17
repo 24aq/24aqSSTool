@@ -1,0 +1,15 @@
+24aq SS Tools - LINK SETUP
+
+Open tools.json and find the card you want.
+
+DIRECT DOWNLOAD:
+"downloadUrl": "https://github.com/OWNER/REPO/releases/download/TAG/Tool.exe",
+"fileName": "Tool.exe"
+
+WEB PAGE ONLY:
+"homePage": "https://github.com/OWNER/REPO"
+
+OPTIONAL HASH:
+"sha256": "EXPECTED_SHA256"
+
+For GitHub Releases, use the actual release asset URL, not the normal repository page.

@@ -1,0 +1,622 @@
+[
+  {
+    "name": "BAMReveal",
+    "description": "Parses BAM forensic artefact",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/BAMReveal/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/BAMReveal"
+  },
+  {
+    "name": "CheckDeletedUSN",
+    "description": "Compares USN timestamp vs boot time",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/CheckDeletedUSN/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/CheckDeletedUSN"
+  },
+  {
+    "name": "DPS-Analyzer",
+    "description": "Analyzes DPS memory",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/DPS-Analyzer/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/DPS-Analyzer"
+  },
+  {
+    "name": "Fileless",
+    "description": "Detects fileless via eventlog + memdump",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/Fileless/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/Fileless"
+  },
+  {
+    "name": "JARParser",
+    "description": "Parses JAR prefetch, DcomLaunch strings",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/JARParser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/JARParser"
+  },
+  {
+    "name": "JournalParser",
+    "description": "Parses NTFS USNJournal entries",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/JournalParser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/JournalParser"
+  },
+  {
+    "name": "PFTrace",
+    "description": "Rundll32/Regsvr32 prefetch analysis",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/PFTrace/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/PFTrace"
+  },
+  {
+    "name": "PrefetchView",
+    "description": "Parses prefetch, extracts file info",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/PrefetchView/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/PrefetchView"
+  },
+  {
+    "name": "StringsParser",
+    "description": "Strings + YARA + signatures scanner",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/StringsParser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/StringsParser"
+  },
+  {
+    "name": "USBDetector",
+    "description": "Detects USB device history",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/USBDetector/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/USBDetector"
+  },
+  {
+    "name": "UserAssistView",
+    "description": "Parses UserAssist registry artifact",
+    "category": "OrbDiff",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Orbdiff/UserAssistView/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Orbdiff/UserAssistView"
+  },
+  {
+    "name": "ActivitiesCache",
+    "description": "Parses ActivitiesCache execution history",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/ActivitiesCache-execution/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/ActivitiesCache-execution"
+  },
+  {
+    "name": "BAM Parser",
+    "description": "Parses BAM entries for execution history",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/BAM-parser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/BAM-parser"
+  },
+  {
+    "name": "BamDeletedKeys",
+    "description": "Finds deleted BAM registry keys",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/BamDeletedKeys/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/BamDeletedKeys"
+  },
+  {
+    "name": "Espouken",
+    "description": "All-in-one SS forensics toolkit",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/Tool/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/Tool"
+  },
+  {
+    "name": "JournalTrace",
+    "description": "Traces file activity via USN journal",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/JournalTrace/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/JournalTrace"
+  },
+  {
+    "name": "KernelDumpTool",
+    "description": "Captures live kernel memory dump",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/KernelLiveDumpTool/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/KernelLiveDumpTool"
+  },
+  {
+    "name": "PathsParser",
+    "description": "Extracts and analyzes executable paths",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/PathsParser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/PathsParser"
+  },
+  {
+    "name": "PcaSvcExecuted",
+    "description": "Extracts PCA service execution records",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/pcasvc-executed/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/pcasvc-executed"
+  },
+  {
+    "name": "PrefetchParser",
+    "description": "Parses Windows prefetch files",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/prefetch-parser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/prefetch-parser"
+  },
+  {
+    "name": "process-parser",
+    "description": "Parses process execution artefacts",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/process-parser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/process-parser"
+  },
+  {
+    "name": "Replaceparser",
+    "description": "",
+    "category": "Spokwn",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/spokwn/Replaceparser/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/Replaceparser"
+  },
+  {
+    "name": "MeowClientFucker",
+    "description": "Detects known cheat client artefacts",
+    "category": "Tonynoh",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/MeowTonynoh/MeowClientFucker/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowClientFucker"
+  },
+  {
+    "name": "MeowDoomsdayFucker",
+    "description": "Detects Doomsday cheat artefacts",
+    "category": "Tonynoh",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/MeowTonynoh/MeowDoomsdayFucker/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowDoomsdayFucker"
+  },
+  {
+    "name": "MeowImportsChecker",
+    "description": "Checks PE imports for suspicious DLLs",
+    "category": "Tonynoh",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/MeowTonynoh/MeowImportsChecker/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowImportsChecker"
+  },
+  {
+    "name": "MeowModAnalyzer",
+    "description": "Analyzes mod files for suspicious content",
+    "category": "Tonynoh",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1",
+    "fileName": "MeowModAnalyzer.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowModAnalyzer"
+  },
+  {
+    "name": "MeowNovowareFucker",
+    "description": "Detects Novoware cheat artefacts",
+    "category": "Tonynoh",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/MeowTonynoh/MeowNovowareFucker/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowNovowareFucker"
+  },
+  {
+    "name": "MeowResolver",
+    "description": "Resolves obfuscated strings in binaries",
+    "category": "Tonynoh",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/MeowTonynoh/MeowResolver/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/MeowTonynoh/MeowResolver"
+  },
+  {
+    "name": "AltDetector",
+    "description": "Detects alternate account artefacts",
+    "category": "Praiselily",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/praiselily/AltDetector/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/AltDetector"
+  },
+  {
+    "name": "Collector",
+    "description": "",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Collector.ps1",
+    "fileName": "Collector.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "CommonDirectories",
+    "description": "Lists files in common suspicious dirs",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/CommonDirectories.ps1",
+    "fileName": "CommonDirectories.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "DoomsdayFinder",
+    "description": "",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/DoomsdayFinder.ps1",
+    "fileName": "DoomsdayFinder.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "HarddiskConverter",
+    "description": "Converts harddisk identifiers for review",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/HarddiskConverter.ps1",
+    "fileName": "HarddiskConverter.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "PSHunter",
+    "description": "Hunts suspicious PowerShell activity",
+    "category": "Praiselily",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/praiselily/PSHunter/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/PSHunter"
+  },
+  {
+    "name": "Services",
+    "description": "Lists and analyzes running services",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1",
+    "fileName": "Services.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "SignedScheduledTasks",
+    "description": "Finds unsigned / suspicious scheduled tasks",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Signed-Scheduled-Tasks.ps1",
+    "fileName": "Signed-Scheduled-Tasks.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/lilith-ps"
+  },
+  {
+    "name": "WeHateFakers",
+    "description": "Checks hotspot / tethering logs",
+    "category": "Praiselily",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1",
+    "fileName": "HotspotLogs.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/praiselily/WeHateFakers"
+  },
+  {
+    "name": "RL AltChecker",
+    "description": "Checks for alternate account indicators",
+    "category": "RedLotus",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/ItzIceHere/RedLotusAltChecker/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/ItzIceHere/RedLotusAltChecker"
+  },
+  {
+    "name": "RL ModAnalyzer",
+    "description": "Analyzes mod files for cheat indicators",
+    "category": "RedLotus",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/ItzIceHere/RedLotus-Mod-Analyzer/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/ItzIceHere/RedLotus-Mod-Analyzer"
+  },
+  {
+    "name": "RL TaskSentinel",
+    "description": "Monitors scheduled tasks for anomalies",
+    "category": "RedLotus",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/ItzIceHere/RedLotus-Task-Sentinel"
+  },
+  {
+    "name": "DQRKIS-FUCKER",
+    "description": "Detects DQRKIS cheat artefacts",
+    "category": "Fakemoon",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/isucksunstoes69-dotcom/dqrkis-fucker/refs/heads/main/dqrkis.ps1",
+    "fileName": "dqrkis.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/isucksunstoes69-dotcom/dqrkis-fucker"
+  },
+  {
+    "name": "EchoClientFucker",
+    "description": "Detects Echo Fabric cheat client",
+    "category": "Fakemoon",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/isucksunstoes69-dotcom/echoclient-fucker/refs/heads/main/echoclientfucker.ps1",
+    "fileName": "echoclientfucker.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/isucksunstoes69-dotcom/echoclient-fucker"
+  },
+  {
+    "name": "All-in-one",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/Enr1c0o/Powershell-Scripts/refs/heads/main/All-in-one.ps1",
+    "fileName": "All-in-one.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/Enr1c0o/Powershell-Scripts"
+  },
+  {
+    "name": "AnyDesk Reset",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/anydesk.ps1",
+    "fileName": "anydesk.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/powershells"
+  },
+  {
+    "name": "BAM Deleted Keys (PS)",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/Florinyoq/Screenshare/refs/heads/main/bam.ps1",
+    "fileName": "bam.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/Florinyoq/Screenshare"
+  },
+  {
+    "name": "DoomsDay (Zedoon)",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1",
+    "fileName": "DoomsDayDetector.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/zedoonvm1/powershell-scripts"
+  },
+  {
+    "name": "HabibiModAnalyzer",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1",
+    "fileName": "HabibiModAnalyzer.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/HadronCollision/PowershellScripts"
+  },
+  {
+    "name": "JARParser (PS)",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/NoDiff-del/JARParser/refs/heads/main/JARParser.ps1",
+    "fileName": "JARParser.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/NoDiff-del/JARParser"
+  },
+  {
+    "name": "Prefetch Integrity",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/bacanoicua/Screenshare/main/RedLotusPrefetchIntegrityAnalyzer.ps1",
+    "fileName": "RedLotusPrefetchIntegrityAnalyzer.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/bacanoicua/Screenshare"
+  },
+  {
+    "name": "Signatures",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/signatures.ps1",
+    "fileName": "signatures.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/powershells"
+  },
+  {
+    "name": "Spokwn BAM (PS)",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1",
+    "fileName": "bamparser.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/powershells"
+  },
+  {
+    "name": "Streams",
+    "description": "",
+    "category": "PS Scripts",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/Streams.ps1",
+    "fileName": "Streams.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/spokwn/powershells"
+  },
+  {
+    "name": "InjGen",
+    "description": "Detects JNI/JVMTI memory injections",
+    "category": "Forensics",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/NotRequiem/InjGen/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/NotRequiem/InjGen"
+  },
+  {
+    "name": "Luyten",
+    "description": "Open source Java decompiler GUI (Procyon)",
+    "category": "Forensics",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/deathmarine/Luyten/releases/download/v0.5.4_Rebuilt_with_Latest_depenencies/luyten-0.5.4.jar",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/deathmarine/Luyten"
+  },
+  {
+    "name": "MacroDetector",
+    "description": "Detects macro / clicker software traces",
+    "category": "Forensics",
+    "sourceType": "PS1",
+    "downloadUrl": "https://raw.githubusercontent.com/Nickk196/MacroDetector/refs/heads/main/MacroDetector.ps1",
+    "fileName": "MacroDetector.ps1",
+    "sha256": "",
+    "homePage": "https://github.com/Nickk196/MacroDetector"
+  },
+  {
+    "name": "Recaf",
+    "description": "",
+    "category": "Forensics",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Col-E/Recaf/releases/download/2.21.14/recaf-2.21.14-J8-jar-with-dependencies.jar",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Col-E/Recaf"
+  },
+  {
+    "name": "DIE-engine",
+    "description": "Detects file type, packer, compiler",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/horsicq/DIE-engine/releases",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/horsicq/DIE-engine"
+  },
+  {
+    "name": "Hayabusa",
+    "description": "Fast forensics timeline generator",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Yamato-Security/hayabusa/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Yamato-Security/hayabusa"
+  },
+  {
+    "name": "Jarabel",
+    "description": "Locates .jar files with detailed checks",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/nay-cat/Jarabel/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/nay-cat/Jarabel"
+  },
+  {
+    "name": "NTFS Parser",
+    "description": "NTFS forensics: MFT, Bitlocker, USN",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/thewhiteninja/ntfstool/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/thewhiteninja/ntfstool"
+  },
+  {
+    "name": "Velociraptor",
+    "description": "Endpoint DFIR and threat hunting agent",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/Velocidex/velociraptor/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/Velocidex/velociraptor"
+  },
+  {
+    "name": "VMAware",
+    "description": "Advanced VM detection library and tool",
+    "category": "Others",
+    "sourceType": "GH",
+    "downloadUrl": "https://github.com/kernelwernel/VMAware/releases/latest",
+    "fileName": "",
+    "sha256": "",
+    "homePage": "https://github.com/kernelwernel/VMAware"
+  }
+]

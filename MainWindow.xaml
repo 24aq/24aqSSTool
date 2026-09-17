@@ -1,0 +1,256 @@
+<Window x:Class="TwentyFourAqSSTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="24aq SS Tools"
+        Width="1280" Height="800"
+        MinWidth="1080" MinHeight="680"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource Bg0}"
+        Foreground="{StaticResource TextPrimary}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="232"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT SIDEBAR -->
+        <Border Grid.Column="0"
+                Background="#080D09"
+                BorderBrush="#163321"
+                BorderThickness="0,0,1,0">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#0D1710"
+                        BorderBrush="#245D36"
+                        BorderThickness="1"
+                        CornerRadius="12"
+                        Padding="18"
+                        Margin="0,14,0,18">
+                    <StackPanel>
+                        <TextBlock Text="24aq"
+                                   Foreground="{StaticResource Accent}"
+                                   FontFamily="Consolas"
+                                   FontSize="32"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"/>
+                        <TextBlock Text="SS TOOLKIT"
+                                   Foreground="{StaticResource TextDim}"
+                                   FontFamily="Consolas"
+                                   FontSize="11"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,2,0,0"/>
+                        <TextBlock Text="● ONLINE"
+                                   Foreground="{StaticResource Accent}"
+                                   FontFamily="Consolas"
+                                   FontSize="9"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <StackPanel Grid.Row="1">
+                    <TextBlock Text="QUICK ACTIONS"
+                               Foreground="{StaticResource TextDim}"
+                               FontFamily="Consolas"
+                               FontSize="10"
+                               Margin="5,0,0,7"/>
+                    <Button Content="▸ Open Install Folder"
+                            Style="{StaticResource FlatButton}"
+                            Click="OpenInstall_Click"/>
+                    <Button Content="▸ Clear Downloaded Files"
+                            Style="{StaticResource FlatButton}"
+                            Click="Clear_Click"/>
+                    <Button Content="▸ Open CMD"
+                            Style="{StaticResource FlatButton}"
+                            Click="OpenCmd_Click"/>
+                </StackPanel>
+
+                <Border Grid.Row="3"
+                        Background="#0B140E"
+                        CornerRadius="9"
+                        BorderBrush="#1C4328"
+                        BorderThickness="1"
+                        Padding="12"
+                        Margin="0,12,0,8">
+                    <StackPanel>
+                        <TextBlock Text="CREDITS"
+                                   Foreground="{StaticResource TextDim}"
+                                   FontFamily="Consolas"
+                                   FontSize="9"/>
+                        <TextBlock Text="Made by 24aq"
+                                   FontWeight="SemiBold"
+                                   Foreground="{StaticResource TextPrimary}"
+                                   Margin="0,8,0,0"/>
+                        <TextBlock Text="Discord: 24aq"
+                                   Foreground="{StaticResource TextSecondary}"
+                                   FontSize="11"
+                                   Margin="0,5,0,0"/>
+                        <TextBlock Text="GitHub: 24aq-ss-Tool"
+                                   Foreground="{StaticResource TextSecondary}"
+                                   FontSize="11"
+                                   Margin="0,3,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Row="4"
+                        Background="#090F0B"
+                        CornerRadius="7"
+                        BorderBrush="#17351F"
+                        BorderThickness="1"
+                        Padding="9">
+                    <StackPanel>
+                        <TextBlock Text="INSTALL PATH"
+                                   Foreground="{StaticResource TextDim}"
+                                   FontFamily="Consolas"
+                                   FontSize="9"/>
+                        <TextBlock Text="%LOCALAPPDATA%\24aqSSTool\Tools"
+                                   Foreground="#50705A"
+                                   FontFamily="Consolas"
+                                   FontSize="9"
+                                   TextWrapping="Wrap"
+                                   Margin="0,4,0,0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+
+        <!-- MAIN -->
+        <Grid Grid.Column="1" Margin="20,18,14,14">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="88"/>
+                <RowDefinition Height="12"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="12"/>
+                <RowDefinition Height="154"/>
+            </Grid.RowDefinitions>
+
+            <!-- STATUS -->
+            <Border Grid.Row="0"
+                    Background="{StaticResource Bg2}"
+                    BorderBrush="#1E4D2C"
+                    BorderThickness="1"
+                    CornerRadius="11"
+                    Padding="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="270"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock x:Name="StatusTitle"
+                                   Text="Ready"
+                                   FontSize="20"
+                                   FontWeight="Bold"/>
+                        <TextBlock x:Name="StatusSubtitle"
+                                   Text="Select a tool to launch or download it."
+                                   Foreground="{StaticResource TextSecondary}"
+                                   FontSize="12"
+                                   Margin="0,2,0,0"/>
+                    </StackPanel>
+
+                    <TextBox Grid.Column="1"
+                             x:Name="SearchBox"
+                             Height="34"
+                             Margin="12,0,16,0"
+                             VerticalAlignment="Center"
+                             TextChanged="SearchBox_TextChanged"
+                             ToolTip="Search tools in the selected category"/>
+
+                    <Border Grid.Column="2"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            Background="#0C2313"
+                            BorderBrush="#2A7B43"
+                            BorderThickness="1"
+                            CornerRadius="7"
+                            Padding="14,7">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="●"
+                                       Foreground="{StaticResource Accent}"
+                                       Margin="0,0,6,0"/>
+                            <TextBlock x:Name="StatusBadge"
+                                       Text="IDLE"
+                                       Foreground="{StaticResource Accent}"
+                                       FontFamily="Consolas"
+                                       FontWeight="Bold"
+                                       FontSize="11"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Border>
+
+            <!-- TOOLS -->
+            <Border Grid.Row="2"
+                    Background="{StaticResource Bg1}"
+                    BorderBrush="#1B4227"
+                    BorderThickness="1"
+                    CornerRadius="11"
+                    Padding="10">
+                <DockPanel>
+                    <TabControl x:Name="CategoryTabs"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                SelectionChanged="CategoryTabs_SelectionChanged"
+                                DockPanel.Dock="Top">
+                        <TabItem Header="OrbDiff"/>
+                        <TabItem Header="Spokwn"/>
+                        <TabItem Header="Tonynoh"/>
+                        <TabItem Header="Praiselily"/>
+                        <TabItem Header="RedLotus"/>
+                        <TabItem Header="Fakemoon"/>
+                        <TabItem Header="PS Scripts"/>
+                        <TabItem Header="Forensics"/>
+                        <TabItem Header="Others"/>
+                    </TabControl>
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                  HorizontalScrollBarVisibility="Disabled"
+                                  Margin="0,10,0,0">
+                        <WrapPanel x:Name="ToolsPanel"/>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <!-- CONSOLE -->
+            <Border Grid.Row="4"
+                    Background="#050806"
+                    BorderBrush="#173B22"
+                    BorderThickness="1"
+                    CornerRadius="11"
+                    Padding="14">
+                <DockPanel>
+                    <Grid DockPanel.Dock="Top" Margin="0,0,0,8">
+                        <TextBlock Text="● ACTIVITY CONSOLE"
+                                   Foreground="{StaticResource TextDim}"
+                                   FontFamily="Consolas"
+                                   FontSize="10"/>
+                        <TextBlock Text="24aq@ss-tool:~$"
+                                   HorizontalAlignment="Right"
+                                   Foreground="{StaticResource AccentMuted}"
+                                   FontFamily="Consolas"
+                                   FontSize="10"/>
+                    </Grid>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <TextBox x:Name="ConsoleBox"
+                                 Background="Transparent"
+                                 BorderThickness="0"
+                                 Foreground="{StaticResource Accent}"
+                                 IsReadOnly="True"
+                                 TextWrapping="Wrap"
+                                 FontFamily="Consolas"
+                                 FontSize="11"/>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
